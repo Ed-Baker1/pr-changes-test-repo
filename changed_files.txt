@@ -1,3 +1,1 @@
-unprotected-file.txt
-
-protected-file.txt
+test-protected-file.txt
