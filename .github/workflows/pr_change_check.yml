@@ -5,10 +5,10 @@ name: 'Check for and block unauthorized changes'
 
 on:
   pull_request_target:
-  issue_comment:
-    types: [created, edited]
-  pull_request_review:
-      types: [submitted, edited]
+ # issue_comment:
+ #   types: [created, edited]
+ # pull_request_review:
+#    types: [submitted, edited]
 
 permissions:
   contents: read
