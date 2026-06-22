@@ -41,7 +41,7 @@ jobs:
 
       - name: Check for blocked changes
         run: |
-          ./ci/scripts/check-pr-changes-allowed.py $HOME/changed_files \
+          ./check-pr-changes-allowed.py $HOME/changed_files \
             --block-file target-branch/BLOCKFILE \
             --gh-repo ${{ github.repository }} \
             --gh-token ${{ secrets.GITHUB_TOKEN }} \
